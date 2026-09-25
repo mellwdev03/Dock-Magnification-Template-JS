@@ -1,0 +1,36 @@
+.item {
+  height: 59px;
+  width: 59px;
+  display: flex;
+  transition: 0.3s cubic-bezier(0.015, 0.102, 0.165, 1);
+  transform-origin: bottom center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px var(--border);
+  color: var(--text);
+  background: var(--color);
+  border-radius: 100rem;
+}
+.item:hover .tag {
+  bottom: 112px;
+  opacity: 1;
+}
+.item svg {
+  width: 29px;
+  transition: all 0.5s;
+  height: 29px;
+}
+.item:hover svg {
+  width: 49px;
+  height: 49px;
+}
+.dock:hover .item {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.552);
+}
+.items {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.7rem;
+}

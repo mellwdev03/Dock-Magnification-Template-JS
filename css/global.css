@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg: #0b0b0b;
+  --dock-bg: #131313;
+  --color: #131313;
+  --text: #fff;
+  --border: #555555;
+  --font: Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: #0b0b0b;
+  justify-content: center;
+  height: 100vh;
+}
