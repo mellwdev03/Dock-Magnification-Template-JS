@@ -8,7 +8,7 @@ dockEl.addEventListener("mousemove", (e) => {
     const rect = item.getBoundingClientRect();
     const itemX = rect.left + rect.width / 2;
     const distance = Math.abs(mouseX - itemX);
-    const scale = 100;
+    const scale = 120;
     const base = 59;
     const t = 240;
     if (distance < t) {
